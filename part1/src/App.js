@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './style/first.css'
 
 const Display = ({ counter }) => <div>{counter}</div>
 
@@ -18,6 +19,7 @@ const App = () => {
       <Button onClick={increaseByOne} text="plus" />
       <Button onClick={setToZero} text="zero" />
       <Button onClick={decreaseByOne} text="minus" />
+      <div class="wave"></div>
     </div>
   )
 }
